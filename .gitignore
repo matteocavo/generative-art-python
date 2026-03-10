@@ -1,0 +1,25 @@
+# notebook originale
+art.ipynb
+
+# script di utilità locale
+generate_previews.py
+
+# output full-resolution (generati localmente)
+img/*.png
+img/*.svg
+phyllotaxis_temple_signed.png
+phyllotaxis_temple_signed.svg
+
+# non ignorare i preview
+!img/previews/
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+.env
+.venv/
+
+# OS
+.DS_Store
+Thumbs.db

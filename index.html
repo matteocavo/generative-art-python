@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Generative Art · Matteo Cavo</title>
+  <style>
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+    body { background: #0a0a0a; color: #e8e0d0; font-family: "Georgia", serif; min-height: 100vh; }
+    header { text-align: center; padding: 80px 24px 60px; border-bottom: 1px solid #222; }
+    header h1 { font-size: clamp(2rem, 5vw, 3.6rem); font-weight: 400; letter-spacing: .12em; color: #f0e8d8; }
+    header p { margin-top: 16px; font-size: 1rem; color: #888; letter-spacing: .06em; }
+    header a { color: #888; text-decoration: none; border-bottom: 1px solid #444; transition: color .2s, border-color .2s; }
+    header a:hover { color: #e8e0d0; border-color: #aaa; }
+    main { max-width: 1200px; margin: 0 auto; padding: 60px 24px 80px; }
+    .grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(280px, 1fr)); gap: 32px; }
+    .card { background: #111; border: 1px solid #1e1e1e; border-radius: 4px; overflow: hidden; transition: transform .25s, border-color .25s, box-shadow .25s; }
+    .card:hover { transform: translateY(-4px); border-color: #444; box-shadow: 0 12px 40px rgba(0,0,0,.6); }
+    .card a { text-decoration: none; color: inherit; display: block; }
+    .card img { width: 100%; display: block; aspect-ratio: 2/3; object-fit: cover; filter: brightness(.92); transition: filter .25s; }
+    .card:hover img { filter: brightness(1.05); }
+    .card-body { padding: 16px 18px 18px; }
+    .card-num { font-size: .72rem; letter-spacing: .14em; color: #555; text-transform: uppercase; }
+    .card-title { font-size: 1.05rem; font-weight: 400; margin-top: 4px; color: #ddd; }
+    .card-desc { font-size: .8rem; color: #666; margin-top: 6px; line-height: 1.5; }
+    .card-link { display: inline-block; margin-top: 12px; font-size: .75rem; letter-spacing: .08em; color: #555; border-bottom: 1px solid #333; transition: color .2s, border-color .2s; }
+    .card:hover .card-link { color: #aaa; border-color: #666; }
+    footer { text-align: center; padding: 40px 24px; border-top: 1px solid #1a1a1a; font-size: .8rem; color: #444; letter-spacing: .06em; }
+    footer a { color: #555; text-decoration: none; border-bottom: 1px solid #333; }
+    footer a:hover { color: #aaa; }
+  </style>
+</head>
+<body>
+<header>
+  <h1>Generative Art</h1>
+  <p>Matteo Cavo &nbsp;·&nbsp; NumPy &amp; Matplotlib &nbsp;·&nbsp; <a href="https://github.com/matteocavo/generative-art-python">GitHub</a></p>
+</header>
+<main>
+  <div class="grid">
+    <div class="card"><a href="https://github.com/matteocavo/generative-art-python/blob/main/artworks/01_organic_stems.py"><img src="img/previews/01_organic_stems.png" alt="Organic Stems"/><div class="card-body"><div class="card-num">01</div><div class="card-title">Organic Stems</div><div class="card-desc">Vertical line clusters and nodes on warm paper</div><span class="card-link">view source →</span></div></a></div>
+    <div class="card"><a href="https://github.com/matteocavo/generative-art-python/blob/main/artworks/02_low_poly_mesh.py"><img src="img/previews/02_low_poly_mesh.png" alt="Low Poly Mesh"/><div class="card-body"><div class="card-num">02</div><div class="card-title">Low Poly Mesh</div><div class="card-desc">Jittered triangulated grid with flat shading</div><span class="card-link">view source →</span></div></a></div>
+    <div class="card"><a href="https://github.com/matteocavo/generative-art-python/blob/main/artworks/03_curved_hatch.py"><img src="img/previews/03_curved_hatch.png" alt="Curved Hatch"/><div class="card-body"><div class="card-num">03</div><div class="card-title">Curved Hatch</div><div class="card-desc">Delaunay triangulation with sinusoidal hatching</div><span class="card-link">view source →</span></div></a></div>
+    <div class="card"><a href="https://github.com/matteocavo/generative-art-python/blob/main/artworks/04_flower_of_life.py"><img src="img/previews/04_flower_of_life.png" alt="Flower of Life"/><div class="card-body"><div class="card-num">04</div><div class="card-title">Flower of Life</div><div class="card-desc">Sacred geometry — overlapping hexagonal circles</div><span class="card-link">view source →</span></div></a></div>
+    <div class="card"><a href="https://github.com/matteocavo/generative-art-python/blob/main/artworks/05_metatron_cube.py"><img src="img/previews/05_metatron_cube.png" alt="Metatron's Cube"/><div class="card-body"><div class="card-num">05</div><div class="card-title">Metatron's Cube</div><div class="card-desc">Complete connections between all 13 points</div><span class="card-link">view source →</span></div></a></div>
+    <div class="card"><a href="https://github.com/matteocavo/generative-art-python/blob/main/artworks/06_cipher_mandala.py"><img src="img/previews/06_cipher_mandala.png" alt="Cipher Mandala"/><div class="card-body"><div class="card-num">06</div><div class="card-title">Cipher Mandala</div><div class="card-desc">Flower-of-Life, chord network and KEY-driven sigil</div><span class="card-link">view source →</span></div></a></div>
+    <div class="card"><a href="https://github.com/matteocavo/generative-art-python/blob/main/artworks/07_cathedral_lace.py"><img src="img/previews/07_cathedral_lace.png" alt="Cathedral Lace"/><div class="card-body"><div class="card-num">07</div><div class="card-title">Cathedral Lace</div><div class="card-desc">High-density mandala with double rosette pass</div><span class="card-link">view source →</span></div></a></div>
+    <div class="card"><a href="https://github.com/matteocavo/generative-art-python/blob/main/artworks/08_yantra_engine.py"><img src="img/previews/08_yantra_engine.png" alt="Yantra Engine"/><div class="card-body"><div class="card-num">08</div><div class="card-title">Yantra Engine</div><div class="card-desc">Multi-level interlaced triangles with central lotus</div><span class="card-link">view source →</span></div></a></div>
+    <div class="card"><a href="https://github.com/matteocavo/generative-art-python/blob/main/artworks/09_torus_knot_mandala.py"><img src="img/previews/09_torus_knot_mandala.png" alt="Torus Knot Mandala"/><div class="card-body"><div class="card-num">09</div><div class="card-title">Torus Knot Mandala</div><div class="card-desc">2D projection of parametric torus knots</div><span class="card-link">view source →</span></div></a></div>
+    <div class="card"><a href="https://github.com/matteocavo/generative-art-python/blob/main/artworks/10_phyllotaxis_temple.py"><img src="img/previews/10_phyllotaxis_temple.png" alt="Phyllotaxis Temple"/><div class="card-body"><div class="card-num">10</div><div class="card-title">Phyllotaxis Temple</div><div class="card-desc">Golden spiral with constellation chord network</div><span class="card-link">view source →</span></div></a></div>
+  </div>
+</main>
+<footer>© 2025 Matteo Cavo &nbsp;·&nbsp; <a href="https://creativecommons.org/licenses/by-nc/4.0/">CC BY-NC 4.0</a></footer>
+</body>
+</html>

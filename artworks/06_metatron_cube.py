@@ -43,6 +43,6 @@ fig.patch.set_facecolor("black"); ax.set_facecolor("black")
 metatron(ax, R=1.0, lw=1.0, alpha=0.95, outer=True)
 
 ax.relim(); ax.autoscale_view()
-fig.savefig(OUT_DIR / "05_metatron_cube.png", dpi=300, bbox_inches="tight", pad_inches=0.02)
+fig.savefig(OUT_DIR / "06_metatron_cube.png", dpi=300, bbox_inches="tight", pad_inches=0.02)
 plt.show()
 

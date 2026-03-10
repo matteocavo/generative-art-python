@@ -65,5 +65,5 @@ add_cluster(cx=W*0.78, spread_x=W*0.05, n=220)
 add_cluster(cx=W*0.50, spread_x=W*0.12, n=70)
 
 plt.tight_layout(pad=0)
-fig.savefig(OUT_DIR / "01_organic_stems.png", dpi=300, bbox_inches="tight", pad_inches=0.02)
+fig.savefig(OUT_DIR / "03_organic_stems.png", dpi=300, bbox_inches="tight", pad_inches=0.02)
 plt.show()

@@ -153,6 +153,6 @@ for t in tris:
     ax.add_collection(lc)
 
 plt.tight_layout(pad=0)
-fig.savefig(OUT_DIR / "03_curved_hatch.png", dpi=300, bbox_inches="tight", pad_inches=0.02)
+fig.savefig(OUT_DIR / "04_curved_hatch.png", dpi=300, bbox_inches="tight", pad_inches=0.02)
 plt.show()
 

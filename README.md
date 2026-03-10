@@ -10,50 +10,50 @@ Each script runs standalone and saves a PNG to the `img/` folder.
 <table>
 <tr>
 <td align="center">
-  <a href="artworks/01_organic_stems.py"><img src="img/previews/01_organic_stems.png" width="220"/><br/>
-  <b>01 · Organic Stems</b></a>
+  <a href="artworks/01_phyllotaxis_temple.py"><img src="img/previews/01_phyllotaxis_temple.png" width="220"/><br/>
+  <b>01 · Phyllotaxis Temple</b></a>
 </td>
 <td align="center">
   <a href="artworks/02_low_poly_mesh.py"><img src="img/previews/02_low_poly_mesh.png" width="220"/><br/>
   <b>02 · Low Poly Mesh</b></a>
 </td>
 <td align="center">
-  <a href="artworks/03_curved_hatch.py"><img src="img/previews/03_curved_hatch.png" width="220"/><br/>
-  <b>03 · Curved Hatch</b></a>
+  <a href="artworks/03_organic_stems.py"><img src="img/previews/03_organic_stems.png" width="220"/><br/>
+  <b>03 · Organic Stems</b></a>
 </td>
 </tr>
 <tr>
 <td align="center">
-  <a href="artworks/04_flower_of_life.py"><img src="img/previews/04_flower_of_life.png" width="220"/><br/>
-  <b>04 · Flower of Life</b></a>
+  <a href="artworks/04_curved_hatch.py"><img src="img/previews/04_curved_hatch.png" width="220"/><br/>
+  <b>04 · Curved Hatch</b></a>
 </td>
 <td align="center">
-  <a href="artworks/05_metatron_cube.py"><img src="img/previews/05_metatron_cube.png" width="220"/><br/>
-  <b>05 · Metatron's Cube</b></a>
+  <a href="artworks/05_flower_of_life.py"><img src="img/previews/05_flower_of_life.png" width="220"/><br/>
+  <b>05 · Flower of Life</b></a>
 </td>
 <td align="center">
-  <a href="artworks/06_cipher_mandala.py"><img src="img/previews/06_cipher_mandala.png" width="220"/><br/>
-  <b>06 · Cipher Mandala</b></a>
-</td>
-</tr>
-<tr>
-<td align="center">
-  <a href="artworks/07_cathedral_lace.py"><img src="img/previews/07_cathedral_lace.png" width="220"/><br/>
-  <b>07 · Cathedral Lace</b></a>
-</td>
-<td align="center">
-  <a href="artworks/08_yantra_engine.py"><img src="img/previews/08_yantra_engine.png" width="220"/><br/>
-  <b>08 · Yantra Engine</b></a>
-</td>
-<td align="center">
-  <a href="artworks/09_torus_knot_mandala.py"><img src="img/previews/09_torus_knot_mandala.png" width="220"/><br/>
-  <b>09 · Torus Knot Mandala</b></a>
+  <a href="artworks/06_metatron_cube.py"><img src="img/previews/06_metatron_cube.png" width="220"/><br/>
+  <b>06 · Metatron's Cube</b></a>
 </td>
 </tr>
 <tr>
 <td align="center">
-  <a href="artworks/10_phyllotaxis_temple.py"><img src="img/previews/10_phyllotaxis_temple.png" width="220"/><br/>
-  <b>10 · Phyllotaxis Temple</b></a>
+  <a href="artworks/07_cipher_mandala.py"><img src="img/previews/07_cipher_mandala.png" width="220"/><br/>
+  <b>07 · Cipher Mandala</b></a>
+</td>
+<td align="center">
+  <a href="artworks/08_cathedral_lace.py"><img src="img/previews/08_cathedral_lace.png" width="220"/><br/>
+  <b>08 · Cathedral Lace</b></a>
+</td>
+<td align="center">
+  <a href="artworks/09_yantra_engine.py"><img src="img/previews/09_yantra_engine.png" width="220"/><br/>
+  <b>09 · Yantra Engine</b></a>
+</td>
+</tr>
+<tr>
+<td align="center">
+  <a href="artworks/10_torus_knot_mandala.py"><img src="img/previews/10_torus_knot_mandala.png" width="220"/><br/>
+  <b>10 · Torus Knot Mandala</b></a>
 </td>
 <td></td>
 <td></td>

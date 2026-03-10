@@ -38,6 +38,6 @@ flower_of_life(ax, R=1.0, rings=5, lw=0.8, alpha=0.85)
 
 # auto limits
 ax.relim(); ax.autoscale_view()
-fig.savefig(OUT_DIR / "04_flower_of_life.png", dpi=300, bbox_inches="tight", pad_inches=0.02)
+fig.savefig(OUT_DIR / "05_flower_of_life.png", dpi=300, bbox_inches="tight", pad_inches=0.02)
 plt.show()
 

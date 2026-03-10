@@ -83,6 +83,6 @@ ax.add_patch(Circle((0,0), R0*0.55, fill=False, edgecolor=INK, lw=LW_FINE, alpha
 extent = R0*5.2
 ax.set_xlim(-extent, extent); ax.set_ylim(-extent, extent)
 plt.tight_layout(pad=0)
-fig.savefig(OUT_DIR / "10_phyllotaxis_temple.png", dpi=300, bbox_inches="tight", pad_inches=0.02)
+fig.savefig(OUT_DIR / "01_phyllotaxis_temple.png", dpi=300, bbox_inches="tight", pad_inches=0.02)
 plt.show()
 

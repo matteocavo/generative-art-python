@@ -213,7 +213,7 @@ ax.set_xlim(-extent, extent)
 ax.set_ylim(-extent, extent)
 plt.tight_layout(pad=0)
 
-fig.savefig(OUT_DIR / "06_cipher_mandala.png", dpi=300, bbox_inches="tight", pad_inches=0.02)
+fig.savefig(OUT_DIR / "07_cipher_mandala.png", dpi=300, bbox_inches="tight", pad_inches=0.02)
 plt.show()
 
 # Export PNG:

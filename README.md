@@ -45,16 +45,17 @@ Each script runs standalone and saves a PNG to the `img/` folder.
   <a href="artworks/08_yantra_engine.py"><img src="img/previews/08_yantra_engine.png" width="220"/><br/>
   <b>08 · Yantra Engine</b></a>
 </td>
-</tr>
-<tr>
 <td align="center">
   <a href="artworks/09_torus_knot_mandala.py"><img src="img/previews/09_torus_knot_mandala.png" width="220"/><br/>
   <b>09 · Torus Knot Mandala</b></a>
 </td>
+</tr>
+<tr>
 <td align="center">
   <a href="artworks/10_phyllotaxis_temple.py"><img src="img/previews/10_phyllotaxis_temple.png" width="220"/><br/>
   <b>10 · Phyllotaxis Temple</b></a>
 </td>
+<td></td>
 <td></td>
 </tr>
 </table>

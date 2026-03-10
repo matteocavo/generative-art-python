@@ -42,10 +42,6 @@ Each script runs standalone and saves a PNG to the `img/` folder.
   <b>07 · Cathedral Lace</b></a>
 </td>
 <td align="center">
-  <a href="artworks/08_square_temple.py"><img src="img/previews/08_square_temple.png" width="220"/><br/>
-  <b>08 · Square Temple</b></a>
-</td>
-<td align="center">
   <a href="artworks/09_yantra_engine.py"><img src="img/previews/09_yantra_engine.png" width="220"/><br/>
   <b>09 · Yantra Engine</b></a>
 </td>
@@ -101,7 +97,7 @@ Each combination produces a unique composition. Output is saved as
 
 ```
 .
-├── artworks/              # 11 standalone scripts
+├── artworks/              # 10 standalone scripts
 ├── template/              # parametric generator
 ├── img/
 │   └── previews/          # low-res previews for this README

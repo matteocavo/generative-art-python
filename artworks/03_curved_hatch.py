@@ -1,6 +1,6 @@
 """
 Curved Hatch
-Delaunay triangulation with sinusoidal hatching and shading
+Delaunay triangulation with sinusoidal hatching — warm paper palette
 """
 
 import os, pathlib
@@ -26,6 +26,12 @@ HATCH_LW = 0.55
 # shading (contrast)
 SHADE_MIN, SHADE_MAX = 0.12, 0.92
 LIGHT = np.array([0.85, 0.25])  # light direction (x,y)
+
+# warm paper palette
+BG       = "#F2E8D5"                        # cream background
+COL_DARK = np.array([0.18, 0.10, 0.04])   # dark sepia
+COL_LIGHT= np.array([0.95, 0.88, 0.75])   # warm highlight
+INK      = (0.18, 0.10, 0.04)             # ink for edges and hatching
 
 # curved hatching
 SPACING_RANGE = (6, 13)         # distance between lines
@@ -64,8 +70,8 @@ tris = tri.triangles
 fig, ax = plt.subplots(figsize=(6, 9), dpi=240)
 ax.set_xlim(0, W); ax.set_ylim(0, H)
 ax.axis("off")
-fig.patch.set_facecolor("black")
-ax.set_facecolor("black")
+fig.patch.set_facecolor(BG)
+ax.set_facecolor(BG)
 
 def shade_for_triangle(P):
     # P: (3,2)
@@ -118,12 +124,12 @@ for t in tris:
     P = pts[t]  # (3,2)
 
     s = shade_for_triangle(P)
-    face = (s, s, s)
+    face = tuple(COL_DARK + s * (COL_LIGHT - COL_DARK))
 
     patch = Polygon(
         P, closed=True,
         facecolor=face,
-        edgecolor=(1, 1, 1, EDGE_ALPHA),
+        edgecolor=(*INK, EDGE_ALPHA),
         lw=0.9
     )
     ax.add_patch(patch)
@@ -140,7 +146,7 @@ for t in tris:
 
     lc = LineCollection(
         segs,
-        colors=[(1, 1, 1, HATCH_ALPHA)],
+        colors=[(*INK, HATCH_ALPHA)],
         linewidths=HATCH_LW
     )
     lc.set_clip_path(patch)

@@ -3,6 +3,13 @@
 Generative art scripts built with **NumPy** and **Matplotlib** — no extra dependencies.
 Each script runs standalone and saves a PNG to the `img/` folder.
 
+**[Browse the live gallery](https://matteocavo.github.io/generative-art-python/)** ·
+[Run an artwork](#usage) · [Parametric generator](#template--generator)
+
+Ten examples of algorithmic drawing, phyllotaxis and geometric composition for
+artists and Python learners. The existing gallery below links each preview to its
+source. Reuse is governed by CC BY-NC 4.0; commercial use is not permitted.
+
 ---
 
 ## Gallery
@@ -68,7 +75,7 @@ Each script runs standalone and saves a PNG to the `img/` folder.
 pip install -r requirements.txt
 
 # run a single artwork
-python artworks/04_flower_of_life.py
+python artworks/05_flower_of_life.py
 
 # run the parametric generator
 python template/generator.py
